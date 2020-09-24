@@ -1,0 +1,9 @@
+body {
+	user-select: none;
+}
+.td {
+	height: 80px;
+}
+input {
+	outline: none;
+}
