@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 2</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body class="bg-dark">
+
+	<div class="container">
+		<div class="row">
+			<table class="table table-dark table-bordered text-center mt-5">
+				<tr>
+					<td colspan="4" class="td">
+							<input type="text" readonly class="h-100 w-100 bg-dark text-light border-0 text-right">
+					</td>
+				</tr>
+				<tr>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myFunction(7)">7</button></td>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myFunction(8)">8</button></td>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myFunction(9)">9</button></td>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myFunction('+')">+</button></td>
+				</tr>
+				<tr>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myFunction(4)">4</button></td>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myFunction(5)">5</button></td>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myFunction(6)">6</button></td>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myFunction('-')">-</button></td>
+				</tr>
+				<tr>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myFunction(1)">1</button></td>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myFunction(2)">2</button></td>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myFunction(3)">3</button></td>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myFunction('*')">*</button></td>
+				</tr>
+				<tr>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myFunction(0)">0</button></td>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="remove()">AC</button></td>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myResult()">=</button></td>
+					<td class="p-0"><button type="button" class="p-3 w-100 h-100 btn btn-dark" onclick="myFunction('/')">/</button></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
